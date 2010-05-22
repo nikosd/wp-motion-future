@@ -27,7 +27,7 @@ get_header(); ?>
 		<h2 id="contentdesc">Author Archive</h2>
 		<?php /* If this is a paged archive */ } elseif ( isset( $_GET['paged'] ) && !empty( $_GET['paged'] ) ) { ?>
 		<h2 id="contentdesc">Blog Archives</h2>
-		<?php } ?><br/>
+		<?php } ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
