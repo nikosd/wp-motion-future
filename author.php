@@ -17,7 +17,7 @@ get_header(); ?>
 		    endif;
 		?>
 
-		<h2 id="contentdesc">Entries by <span><?php echo $curauth->nickname; ?></span> &raquo;</h2>
+		<h2 id="contentdesc">Entries by <span><?php echo ($curauth->first_name . " " . $curauth->last_name); ?></span> &raquo;</h2>
 
 		<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
