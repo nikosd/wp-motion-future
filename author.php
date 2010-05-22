@@ -26,8 +26,8 @@ get_header(); ?>
 			<div class="posttop">
 				<h2 class="posttitle"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				<div class="postmetatop">
+				    <div class="date"><span><?php the_time( get_option( 'date_format' ) ); ?></span></div>
 					<div class="categs">Filed Under: <?php the_category( ', ' ); ?></div>
-					<div class="date"><span><?php the_time( get_option( 'date_format' ) ); ?></span></div>
 				</div>
 			</div>
 		</div><!-- /post -->

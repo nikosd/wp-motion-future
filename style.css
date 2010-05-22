@@ -269,7 +269,7 @@ form label.subscribe-label {
 	float: right;
 	width: 468px;
 	margin: 30px 0 10px 0;
-	text-align: left;
+	text-align: right;
 	padding: 10px;
 	background: url(images/whitetrans.png);
 	font-size: .8em;
@@ -404,14 +404,13 @@ h2#contentdesc span {
 	background: url(images/categ.png) left 2px no-repeat;
 	padding-left: 20px;
 	line-height: 16px;
+	margin-left: 20px;
 }
 .postmetatop .categs a:hover {
 	color: #afdaff;
 }
 .postmetatop .date {
-	float: right;
-	width: 130px;
-	text-align: right;
+	float: left;
 }
 .postmetatop .date span {
 	background: url(images/date.png) left no-repeat;
