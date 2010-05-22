@@ -271,7 +271,6 @@ form label.subscribe-label {
 	margin: 30px 0 10px 0;
 	text-align: right;
 	padding: 10px;
-	background: url(images/whitetrans.png);
 	font-size: .8em;
 	line-height: 1.5em;
 }
@@ -377,10 +376,7 @@ h2#contentdesc span {
 	background: url(images/blacktrans.png);
 }
 .posttop {
-	background: url(images/blacktrans.png);
-	padding: 10px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
+	padding: 10px 0;
 }
 .posttop h2.posttitle a {
 	color: #afdaff;
@@ -418,7 +414,6 @@ h2#contentdesc span {
 }
 .postcontent {
 	color: #fff;
-	margin: .8em 0;
 	font-size: 0.9em;
 	line-height: 1.5em;
 }
@@ -469,15 +464,12 @@ h2#contentdesc span {
 	list-style: decimal;
 }
 .postmetabottom {
-	background: url(images/whitetrans.png);
 	overflow: hidden;
 	width: 100%;
 	padding: 10px 0;
 	font-size: 0.8em;
 	line-height: 1.1em;
-	margin-top: 15px;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
+	margin-top: 5px;
 }
 .postmetabottom a {
 }
@@ -488,7 +480,6 @@ h2#contentdesc span {
 	float: left;
 	width: 440px;
 	background: url(images/tags.png) left 1px no-repeat;
-	margin-left: 10px;
 	padding-left: 20px;
 	line-height: 16px;
 }
@@ -761,12 +752,9 @@ h2#contentdesc span {
 	margin-bottom: 30px;
 }
 #sidebar ul li.boxed {
-	background: url(images/blacktrans.png);
 	overflow: hidden;
 	padding: 10px;
 	margin-bottom: 15px;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
 }
 #sidebar h3 {
         border-bottom:2px dotted;
@@ -863,28 +851,26 @@ li#tagbox a:hover {
 * Footer *
 ************************************************/
 #footer {
-	background: url(images/blacktrans.png);
 	clear: both;
 	overflow: hidden;
 	width: 100%;
 	font-size: 0.8em;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
+	border-top: 1px solid;
 }
 #footer .foot1 {
 	float: left;
-	width: 310px;
-	margin: 10px 0 0 10px;
+	width: 320px;
+	margin: 10px 0 0 0;
 	display: inline;
 }
 #footer .foot2 {
 	float: left;
-	width: 310px;
-	margin: 10px 15px 0 15px;
+	width: 320px;
+	margin: 10px 5px 0 5px;
 }
 #footer .foot3 {
 	float: left;
-	width: 310px;
+	width: 320px;
 	margin: 10px 0 0 0;
 }
 #footer h3 {
