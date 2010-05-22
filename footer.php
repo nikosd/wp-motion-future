@@ -51,8 +51,8 @@
 <div id="credits">
 	<div id="creditsleft">
 	    Powered by <a href="http://wordpress.org/extend/themes/" rel="generator">WordPress</a> |
-	    Theme: <a href="http://nikosd.github.com/wp-motion-future">MotionFuture</a> based on the
-	    <a href="http://85ideas.com/public-releases/wordpress-theme-motion/">MotionFuture</a>.
+	    Theme: <a href="http://nikosd.github.com/wp-motion-future">MotionFuture</a>, originally based on
+	    <a href="http://85ideas.com/public-releases/wordpress-theme-motion/">Motion</a>.
     </div>
 	<div id="creditsright"><a href="#top">&#91; Back to top &#93;</a></div>
 </div><!-- /credits -->
