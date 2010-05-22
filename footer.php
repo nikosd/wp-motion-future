@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage Motion
+ * @subpackage MotionFuture
  */
 ?>
 
@@ -49,7 +49,11 @@
 </div><!-- /footer -->
 
 <div id="credits">
-	<div id="creditsleft">Powered by <a href="http://wordpress.org/extend/themes/" rel="generator">WordPress</a> | Theme: <a href="http://85ideas.com/public-releases/wordpress-theme-motion/">Motion</a> by <a href="http://85ideas.com/" rel="designer">85ideas</a>.</div>
+	<div id="creditsleft">
+	    Powered by <a href="http://wordpress.org/extend/themes/" rel="generator">WordPress</a> |
+	    Theme: <a href="http://nikosd.github.com/wp-motion-future">MotionFuture</a> based on the
+	    <a href="http://85ideas.com/public-releases/wordpress-theme-motion/">MotionFuture</a>.
+    </div>
 	<div id="creditsright"><a href="#top">&#91; Back to top &#93;</a></div>
 </div><!-- /credits -->
 

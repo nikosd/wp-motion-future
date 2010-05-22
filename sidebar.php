@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage Motion
+ * @subpackage MotionFuture
  */
 ?>
 

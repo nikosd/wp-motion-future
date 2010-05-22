@@ -1,15 +1,15 @@
 <?php
 
-add_action( 'init', array( 'MotionOptions', 'init' ) );
+add_action( 'init', array( 'MotionFutureOptions', 'init' ) );
 
-class MotionOptions {
+class MotionFutureOptions {
 
 	function init() {
-		add_action( 'admin_menu', array( 'MotionOptions', 'add_options_page' ) );
+		add_action( 'admin_menu', array( 'MotionFutureOptions', 'add_options_page' ) );
 	}
 
 	function add_options_page() {
-  		add_theme_page( __( 'Theme Options' ), __( 'Theme Options' ), 'edit_theme_options', basename(__FILE__), array( 'MotionOptions', 'page' ) );
+  		add_theme_page( __( 'Theme Options' ), __( 'Theme Options' ), 'edit_theme_options', basename(__FILE__), array( 'MotionFutureOptions', 'page' ) );
 	}
 
 	function page() {
@@ -44,7 +44,7 @@ class MotionOptions {
     	} ?>
 
 		<div class="wrap">
-	    <?php echo "<h2>" . __( 'Motion Theme Options' ) . "</h2>"; ?>
+	    <?php echo "<h2>" . __( 'MotionFuture Theme Options' ) . "</h2>"; ?>
 
 		<form name="form1" method="post" action="<?php echo esc_attr( str_replace( '%7E', '~', $_SERVER['REQUEST_URI'] ) ); ?>">
 			<fieldset>
