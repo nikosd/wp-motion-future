@@ -286,6 +286,7 @@ form label.subscribe-label {
 	background: url(images/blacktrans.png);
 }
 #catnav {
+    display: none;
 	width: 980px;
 	background: url(images/blacktrans.png);
         border-radius: 5px;
@@ -349,9 +350,7 @@ form label.subscribe-label {
 /************************************************
 * Content *
 ************************************************/
-#main {
-	padding: 30px 0 20px 0;
-}
+#main {}
 #content {
 	float: left;
 	overflow: hidden;
