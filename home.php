@@ -29,7 +29,8 @@ get_header(); ?>
 			</div>
 
 			<div class="postcontent">
-				<?php the_content( 'View full article &raquo;' ); ?>
+			    <?php the_excerpt() ?>
+			    <a href="<?php the_permalink(); ?>">Continue reading &raquo;</a> 
 			</div>
 
 			<div class="postmetabottom">
