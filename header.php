@@ -49,7 +49,7 @@
 <div id="header">
 	<div id="logo">
 		<a href="<?php echo get_option( 'home' ); ?>"><img src="<?php header_image() ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
-		<h1><a href="<?php echo get_option( 'home' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+		<h1><a href="<?php echo get_option( 'home' ); ?>"><span style="color: #A8EF9D;">Afterhours.</span><span style="color: white">Tech.</span><span style="color: #AFDAFF;">Blog.</span><!--<?php bloginfo( 'name' ); ?>--></a></h1>
 		<div id="desc"><?php bloginfo( 'description' ); ?></div>
 	</div><!-- /logo -->
 
