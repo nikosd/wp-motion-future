@@ -40,7 +40,7 @@ get_header(); ?>
 			<div class="posttop">
 				<h2 class="posttitle"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				<div class="postmetatop">
-					<div class="categs">Filed Under: <?php the_category( ', ' ); ?> by <?php the_author() ?> &mdash; <?php comments_popup_link( __( 'Leave a comment' ), __( '1 Comment' ), __( '% Comments' ) ) ?></div>
+					<div class="categs">Filed Under: <?php the_category( ', ' ); ?> by <?php the_author_posts_link(); ?> &mdash; <?php comments_popup_link( __( 'Leave a comment' ), __( '1 Comment' ), __( '% Comments' ) ) ?></div>
 					<div class="date"><span><?php the_time( get_option( 'date_format' ) ); ?></span></div>
 				</div>
 			</div>
