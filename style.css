@@ -186,6 +186,8 @@ form label.subscribe-label {
 	padding: 0 .8em .2em .8em;
 	line-height: 1.5em;
 	margin: 0 .4em .4em 0;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
 }
 #top #topmenu li:hover, #top #topmenu li.current_page_item {
 	background: url(images/blacktrans.png);
@@ -286,12 +288,16 @@ form label.subscribe-label {
 #catnav {
 	width: 980px;
 	background: url(images/blacktrans.png);
+        border-radius: 5px;
+        -moz-border-radius: 5px;
 }
 #nav li {
 	float: left;
 	background: url(images/blacktrans.png);
 	line-height: 2em;
 	margin: 5px 0 5px 5px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
 }
 #nav li:hover {
 	background: url(images/blacktrans2.png);
@@ -373,6 +379,8 @@ h2#contentdesc span {
 .posttop {
 	background: url(images/blacktrans.png);
 	padding: 10px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
 }
 .posttop h2.posttitle a {
 	color: #afdaff;
@@ -468,6 +476,8 @@ h2#contentdesc span {
 	font-size: 0.8em;
 	line-height: 1.1em;
 	margin-top: 15px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
 }
 .postmetabottom a {
 	color: #fff;
@@ -715,6 +725,8 @@ h2#contentdesc span {
 	background: #efefef;
 	font-size: .8em;
 	border: none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
 }
 #comments #respond .submitbutton {
 	color: #fff;
@@ -748,6 +760,8 @@ h2#contentdesc span {
 	overflow: hidden;
 	padding: 10px;
 	margin-bottom: 15px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
 }
 #sidebar h3 {
 	background: url(images/blacktrans.png);
@@ -849,6 +863,8 @@ li#tagbox a:hover {
 	overflow: hidden;
 	width: 100%;
 	font-size: 0.8em;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
 }
 #footer .foot1 {
 	float: left;
