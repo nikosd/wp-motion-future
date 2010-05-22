@@ -71,6 +71,7 @@ blockquote {
 	background: url(images/whitetrans.png);
 	padding: .4em 1em .7em 1em;
 	margin: .7em 0 .3em 0;
+	border: 1px dotted;
 }
 code {
 	font-size: 1.1em;
