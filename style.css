@@ -481,10 +481,9 @@ h2#contentdesc span {
         -moz-border-radius: 5px;
 }
 .postmetabottom a {
-	color: #fff;
 }
 .postmetabottom a:hover {
-	color: #afdaff;
+  color: #afdaff;
 }
 .postmetabottom .tags {
 	float: left;
@@ -783,7 +782,7 @@ h2#contentdesc span {
 	padding: 3px 5px;
 }
 #sidebar ul ul li a:hover, #sidebar p a:hover {
-        text-decoration: underline;
+    color: #afdaff;
 }
 #sidebar ul ul ul li {
 	background: url(images/bullet.png) left 7px no-repeat;
@@ -922,7 +921,7 @@ li#tagbox a:hover {
 	padding: 2px 5px;
 }
 #footer a:hover {
-        text-decoration: underline;
+    color: #afdaff;
 }
 #footer .widget_tag_cloud a {
 	display: inline;
