@@ -104,7 +104,7 @@ table {
 	margin: .5em 0;
 }
 table th {
-	color: #a8ef9d;
+	color: white;
 }
 table td,table th {
 	padding: .5em .7em;
@@ -710,7 +710,7 @@ h2#contentdesc span {
 	font-weight: normal;
 }
 #comments #respond textarea {
-	width: 600px;
+	width: 620px;
 	padding: 10px;
 	background: #efefef;
 	font-size: .8em;
