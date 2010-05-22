@@ -726,9 +726,15 @@ h2#contentdesc span {
 	background: #efefef;
 	font-size: .8em;
 	border: none;
+        margin-bottom: 10px;
+        opacity: 0.7;
         border-radius: 5px;
         -moz-border-radius: 5px;
 }
+#comments #respond textarea:focus {
+        opacity: 1;
+}
+
 #comments #respond .submitbutton {
 	color: #fff;
 	background: url(images/blacktrans3.png);
